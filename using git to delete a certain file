@@ -1,0 +1,15 @@
+---
+# HOW TO USE GIT FOR THE DELETION OF A CERTAIN FILE
+---
+
+```
+git pull origin master   # pull project from remote repository
+dir   # view files/dirs
+git rm -r --cached _filenameORdirname_   # delete a file or dir
+git commit -m 'description'   # commit with description
+git push -u origin master   # push this update to github
+```
+
+## Preparation:
+  1. Download Git Bash
+  2. Open Git Bash and **cd** to target path
